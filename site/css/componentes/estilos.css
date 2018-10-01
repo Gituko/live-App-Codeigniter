@@ -1,0 +1,38 @@
+.cuadro_video{
+    background: #f1f1f1;
+}
+/*#f1f1f1*/
+.cuadro_video .imagen a{
+    text-align: center;
+    margin: 0 auto;
+}
+.cuadro_video .imagen img{
+    width: 100%;
+    height: 171px;
+}
+/*width:193.8px; height: 126px*/
+.cuadro_video .nombre{
+        text-align: left;
+    color: #4aa947;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 44px;
+}
+.cuadro_video .artista{
+    color: #01aff7;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 7px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.cuadro_video .views{
+    color: black;
+    font-size: 12px;
+}
+.cuadro_video .views{
+    color: gray;
+}

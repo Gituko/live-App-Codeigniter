@@ -1,0 +1,263 @@
+/*** 
+set the width and height to match your images 
+**/
+
+#slideshow {
+    position:relative;
+    height:500px;
+	/*height:412px;*/
+	z-index:9;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width: 1024px;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+			
+	/* Set up positioning */
+	
+	top: 0;
+	left: 0;
+}
+		
+@media screen and (max-width: 1024px){
+	img.bg {
+	left: 50%;
+	margin-left: -512px; 
+}
+}
+		
+#page-wrap { 
+	position: relative;
+	width: 400px; 
+	margin: 50px auto; 
+	padding: 20px; 
+	background: #fff; 
+	-moz-box-shadow: 0 0 20px black; 
+	-webkit-box-shadow: 0 0 20px black; 
+	box-shadow: 0 0 20px black; 
+}
+
+
+/*#content {
+	width: 920px;
+	margin: 0 auto;
+	background: rgba(11,11,11, 0.5);
+	padding: 20px;
+}
+
+#content h1 {
+	text-transform: uppercase;
+	font-family: 'Arial';
+	color: #fff;
+}
+
+#content a {
+	color: #a82711;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #000;
+	padding: 10px;
+}*/
+@media(min-width:992px) and (max-width:1024px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:991px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:768px) and (max-width:991px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:767px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:736px) and (max-width:767px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:735px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:668px) and (max-width:735px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:667px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:640px) and (max-width:667px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:639px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:600px) and (max-width:639px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:639px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media(min-width:480px) and (max-width:599px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:479px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}	
+}
+@media (min-width:414px) and (max-width: 479px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:413px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}
+#slideshow {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+}
+@media (min-width:375px) and (max-width: 413px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:374px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}
+#slideshow {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+}
+@media (min-width:360px) and (max-width: 374px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:359px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}
+#slideshow {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+}
+@media (min-width:320px) and (max-width: 359px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:319px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}
+#slideshow {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+}
+@media (min-width:240px) and (max-width: 319px) {
+#slideshow img {
+	/* Set rules to fill background */
+	max-height: 100%;
+	min-width:239px !important;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+}
+#slideshow {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+}

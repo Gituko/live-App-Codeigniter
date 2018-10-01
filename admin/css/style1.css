@@ -1,0 +1,43 @@
+.form-module {
+  position: relative;
+  background: #424242;
+ /* max-width: 320px;*/
+  max-width: 550px;
+  width: 100%;
+  border-top: 5px solid #c60003;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.form-module .cta {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 12px;
+  text-align: center;
+}
+
+.form-module input {
+  outline: none;
+  display: block;
+  width: 100%;
+ /* border: 1px solid #d9d9d9;*/
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-wieght: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+

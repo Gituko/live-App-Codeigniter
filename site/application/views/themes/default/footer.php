@@ -1,0 +1,1 @@
+<?php echo $this->load->view("themes/index/footer",$data,TRUE); ?>

@@ -1,0 +1,1668 @@
+/*---------------     Media Query      ---------------*/
+
+@media screen and (max-width:1100px)
+{
+	
+}
+
+@media screen and (max-width:800px)
+{
+	
+
+}
+@media screen and (max-width:500px)
+{	
+	
+}
+
+/**********MAIN MEDIA QUERY************/
+
+@media(min-width:1270px) and (max-width:7000px) {
+.chattag{
+	display:none;
+}
+.filter{
+	display:none;
+}
+}
+@media(min-width:1200px) and (max-width:1269px) {
+.chattag{
+	display:none;
+}
+.filter{
+	display:none;
+}
+}
+
+@media(min-width:1025px) and (max-width:1199px) {
+.chattag{
+	display:none;
+}
+.filter{
+	display:none;
+}
+.accountname {
+    width: 78%;
+}
+.accname {
+    width: 78%;
+}
+.navbar-collapse{
+	padding:0 !important;
+}
+}
+@media(min-width:992px) and (max-width:1024px) {
+.chattag{
+	display:none;
+}
+.filter{
+	display:none;
+}
+.accountname {
+    width: 75%;
+}
+.accname {
+    width: 75%;
+}
+.search_tab{
+	width:100%;
+}
+.slider_holder {
+    height: 375px;
+}
+.index_search_holder{
+	top:21px;
+}
+.navbar-collapse{
+	padding:0 !important;
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.chattag{
+	display:none;
+}
+.gi_title_right{
+	padding:0;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 72%;
+}
+.accname {
+    width: 72%;
+}
+.vdodetel h5{
+	font-size:10px;
+}
+.vdodetel p{
+	font-size:9px;
+}
+.rsdbtn{
+	margin-right:0;
+}
+.rsd{
+	margin-right:3px;
+}
+.relatedstrm_body {
+    width: 82%;
+}
+.follow_sec a{
+	width:52%;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 10px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: 282px;
+}
+.index_search_holder{
+	top:6px;
+}
+.navbar-collapse{
+	padding:0 !important;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:9px 0;
+}
+}
+@media(min-width:736px) and (max-width:767px) {
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:90%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 73px;
+	z-index:999;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 80%;
+}
+.accname {
+    width: 70%;
+}
+.follow_sec a{
+	width:44%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 10px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: 282px;
+}
+.index_search_holder{
+	top:6px;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:9px 0;
+}
+.mobsearch{
+	left: 18%;
+    position: absolute;
+    top: 0;
+}
+.mobaccount{
+	left: 50%;
+    position: absolute;
+    top: 0;
+}
+}
+
+@media(min-width:668px) and (max-width:735px) {
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:90%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 73px;
+	z-index:999;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 80%;
+}
+.accname {
+    width: 70%;
+}
+.follow_sec a{
+	width:48%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.vdodetel h5{
+	font-size:14px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 10px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: 282px;
+}
+.index_search_holder{
+	top:6px;
+}
+.mobsearch{
+	left: 18%;
+    position: absolute;
+    top: 0;
+}
+.mobaccount{
+	left: 50%;
+    position: absolute;
+    top: 0;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:9px 0;
+}
+}
+
+@media(min-width:640px) and (max-width:667px) {
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:90%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 73px;
+	z-index:999;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 80%;
+}
+.accname {
+    width: 70%;
+}
+.follow_sec a{
+	width:48%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.vdodetel h5{
+	font-size:14px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 10px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: 282px;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.mobsearch{
+	left: 18%;
+    position: absolute;
+    top: 0;
+}
+.mobaccount{
+	left: 50%;
+    position: absolute;
+    top: 0;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:9px 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:600px) and (max-width:639px) {
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:90%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 73px;
+	z-index:999;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 80%;
+}
+.accname {
+    width: 70%;
+}
+.follow_sec a{
+	width:48%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.vdodetel h5{
+	font-size:12px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 9px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: 282px;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.mobsearch{
+	left: 18%;
+    position: absolute;
+    top: 0;
+}
+.mobaccount{
+	left: 50%;
+    position: absolute;
+    top: 0;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:9px 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:480px) and (max-width:599px) {
+.message_top{
+	width:88%;
+}
+.msg_body {
+    width: 88%;
+}
+.chattag{
+	display:block;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 54px;
+	z-index:999;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.accountname {
+    width: 75%;
+}
+.accname {
+    width: 70%;
+}
+.follow_sec a{
+	width:55%;
+}
+.follow_sec{
+	width:55%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:7px 0;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.vdodetel h5{
+	font-size:9px;
+}
+.vdodetel p{
+	font-size:8px;
+}
+.container_index {
+    padding: 0 15px;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 12px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.mobsearch{
+	left: 18%;
+    position: absolute;
+    top: 0;
+}
+.mobaccount{
+	left: 50%;
+    position: absolute;
+    top: 0;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:20%;
+	padding:13px 0 2px;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:414px) and (max-width:479px) {
+.message_top{
+	width:88%;
+}
+.msg_body {
+    width: 88%;
+}
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 100px;
+	z-index:999;
+	padding: 11px 0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 260px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.login_myaccountarea2 {
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+}
+.accountname {
+    width: 89%;
+}
+.accname {
+    width: 81%;
+	padding: 3px 0 0 10px;
+}
+.following{
+	width:45%;
+}
+.follow_sec a{
+	width:52%;
+}
+.follow_sec{
+	width:100%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:5px 0;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.videodetails_slider > .vb_slider > .rent_prop_row > .popularshows > .carousel > .carousel-inner > .item > .rp_btm_slider:last-child{
+	float:none;
+	margin:auto;
+	display:table;
+	padding:0;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.googleadd{
+	width:100%;
+	padding: 10px;
+}
+.fv_container{
+	width:50%;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.f_title {
+    float: none;
+    width: auto;
+}
+.f_title h2 {
+    text-align: center;
+}
+.viewallvdo {
+    float: none;
+    margin-top: 10px;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 12px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.search_box {
+    margin: 10px auto 0;
+    width: 95%;
+}
+.non_serch_mobile{
+	display:none;
+}
+.searchicon{
+	display:block;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:44%;
+	padding:2px 0;
+}
+.mobsearch{
+	width:100%;
+	padding:0 0px;
+}
+.mobaccount{
+	width:100%;
+	padding:0 0px;
+}
+.footer_links li {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+}
+.footer_links ul {
+    margin: auto;
+    padding-left: 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+@media(min-width:375px) and (max-width:413px) {
+.message_top{
+	width:78%;
+}
+.msg_body {
+    width: 78%;
+}
+.msg_thumb{
+	width:10%;
+}
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 100px;
+	z-index:999;
+	padding: 11px 0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 250px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.login_myaccountarea2 {
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+}
+.accountname {
+    width: 85%;
+}
+.accname {
+    width: 81%;
+	padding: 3px 0 0 10px;
+}
+.following{
+	width:45%;
+}
+.follow_sec a{
+	width:50%;
+}
+.follow_sec{
+	width:100%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:5px 0;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.videodetails_slider > .vb_slider > .rent_prop_row > .popularshows > .carousel > .carousel-inner > .item > .rp_btm_slider:last-child{
+	float:none;
+	margin:auto;
+	display:table;
+	padding:0;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.googleadd{
+	width:100%;
+	padding: 10px;
+}
+.fv_container{
+	width:50%;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.text-center{
+	font-size:20px;
+}
+.f_title {
+    float: none;
+    width: auto;
+}
+.f_title h2 {
+    text-align: center;
+}
+.viewallvdo {
+    float: none;
+    margin-top: 10px;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 12px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.search_box {
+    margin: 10px auto 0;
+    width: 95%;
+}
+.non_serch_mobile{
+	display:none;
+}
+.searchicon{
+	display:block;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:54%;
+	padding:2px 0;
+}
+.mobsearch{
+	width:100%;
+	padding:0 0px;
+}
+.mobaccount{
+	width:100%;
+	padding:0 0px;
+}
+.footer_links li {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+}
+.footer_links ul {
+    margin: auto;
+    padding-left: 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:360px) and (max-width:374px) {
+.message_top{
+	width:78%;
+}
+.msg_body {
+    width: 78%;
+}
+.msg_thumb{
+	width:10%;
+}
+.chattag{
+	display:block;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 100px;
+	z-index:999;
+	padding: 11px 0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 230px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.login_myaccountarea2 {
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+}
+.accountname {
+    width: 82%;
+}
+.accname {
+    width: 81%;
+	padding: 3px 0 0 10px;
+}
+.following{
+	width:45%;
+}
+.follow_sec a{
+	width:50%;
+}
+.follow_sec{
+	width:100%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:5px 0;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.videodetails_slider > .vb_slider > .rent_prop_row > .popularshows > .carousel > .carousel-inner > .item > .rp_btm_slider:last-child{
+	float:none;
+	margin:auto;
+	display:table;
+	padding:0;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.googleadd{
+	width:100%;
+	padding: 10px;
+}
+.fv_container{
+	width:50%;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.text-center{
+	font-size:18px;
+}
+.f_title {
+    float: none;
+    width: auto;
+}
+.f_title h2 {
+    text-align: center;
+}
+.viewallvdo {
+    float: none;
+    margin-top: 10px;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 12px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.search_box {
+    margin: 10px auto 0;
+    width: 95%;
+}
+.non_serch_mobile{
+	display:none;
+}
+.searchicon{
+	display:block;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:58%;
+	padding:2px 0;
+}
+.mobsearch{
+	width:100%;
+	padding:0 0px;
+}
+.mobaccount{
+	width:100%;
+	padding:0 0px;
+}
+.footer_links li {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+}
+.footer_links ul {
+    margin: auto;
+    padding-left: 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:320px) and (max-width:359px) {
+.message_top{
+	width:78%;
+}
+.msg_body {
+    width: 78%;
+}
+.msg_thumb{
+	width:10%;
+}
+.chattag{
+	display:block;
+}
+.fv_container {
+    padding: 0;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 100px;
+	z-index:999;
+	padding: 11px 0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 190px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.login_myaccountarea2 {
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+}
+.accountname {
+    width: 80%;
+}
+.accname {
+    width: 81%;
+	padding: 3px 0 0 10px;
+}
+.following{
+	width:45%;
+}
+.follow_sec a{
+	width:50%;
+}
+.follow_sec{
+	width:100%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:5px 0;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.videodetails_slider > .vb_slider > .rent_prop_row > .popularshows > .carousel > .carousel-inner > .item > .rp_btm_slider:last-child{
+	float:none;
+	margin:auto;
+	display:table;
+	padding:0;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.googleadd{
+	width:100%;
+	padding: 10px;
+}
+.fv_container{
+	width:100%;
+}
+.rp_btm_slider{
+	width:50% !important;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.text-center{
+	font-size:18px;
+}
+.f_title {
+    float: none;
+    width: auto;
+}
+.f_title h2 {
+    text-align: center;
+}
+.viewallvdo {
+    float: none;
+    margin-top: 10px;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 12px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.search_box {
+    margin: 10px auto 0;
+    width: 95%;
+}
+.non_serch_mobile{
+	display:none;
+}
+.searchicon{
+	display:block;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:68%;
+	padding:2px 0;
+}
+.mobsearch{
+	width:100%;
+	padding:0 0px;
+}
+.mobaccount{
+	width:100%;
+	padding:0 0px;
+}
+.footer_links li {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+}
+.footer_links ul {
+    margin: auto;
+    padding-left: 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}
+
+@media(min-width:240px) and (max-width:319px) {
+.message_top{
+	width:78%;
+}
+.msg_body {
+    width: 78%;
+}
+.msg_thumb{
+	width:10%;
+}
+.chattag{
+	display:block;
+}
+.fv_container {
+    padding: 0;
+}
+.gi_title_right{
+	padding:0;
+}
+.congrates_holder{
+	width:100%;
+}
+.normal_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.filter {
+    right: 90px;
+	z-index:999;
+	padding: 11px 0;
+}
+.myaccount_leftpanel {
+    display: none;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    width: 150px;
+    z-index: 99999;
+}
+.allcourses {
+    padding: 0 10px;
+}
+.login_myaccountarea2 {
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+}
+.accountname {
+    width: 78%;
+}
+.accname {
+    width: 81%;
+	padding: 3px 0 0 10px;
+}
+.following{
+	width:45%;
+}
+.follow_sec a{
+	width:50%;
+}
+.follow_sec{
+	width:100%;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_sername h4{
+	margin:5px 0;
+}
+.userimage {
+    padding: 0;
+    width: 7.333%;
+}
+.video_detaile_left_body{
+	padding-left:0;
+	padding-right:0;
+}
+.video_detaile_rightpanel{
+	padding-left:0;
+	padding-right:0;
+}
+.relatedstrm_body{
+	width:81%;
+}
+.videodetails_slider > .vb_slider > .rent_prop_row > .popularshows > .carousel > .carousel-inner > .item > .rp_btm_slider:last-child{
+	float:none;
+	margin:auto;
+	display:table;
+	padding:0;
+}
+.terms{
+	padding:0;
+}
+.terms2 p {
+    padding-left: 0;
+}
+.aboutus_body h5{
+	width:95%;
+}
+.terms2{
+	padding:0;
+}
+.aboutleft{
+	width:100%;
+	padding:0;
+}
+.googleadd{
+	width:100%;
+	padding: 10px;
+}
+.fv_container{
+	width:100%;
+}
+.rp_btm_slider{
+	width:50% !important;
+}
+.f_video_bottom h5{
+	font-size:12px;
+}
+.text-center{
+	font-size:14px;
+	margin-top:0;
+}
+.f_title {
+    float: none;
+    width: auto;
+}
+.f_title h2 {
+    text-align: center;
+}
+.viewallvdo {
+    float: none;
+    margin-top: 10px;
+}
+.topvideo{
+	width:100%;
+}
+.video_description{
+	width:100%;
+}
+.container_index {
+    padding: 0 15px;
+}
+.search_tab{
+	width:100%;
+}
+.bottom_streamer{
+	margin-top:0;
+}
+.bottom_streamer p{
+	font-size: 10px;
+}
+.bottom_streamer h3{
+	font-size:14px;
+}
+.slider_holder {
+    height: auto;
+}
+.index_search_holder{
+	top:6px;
+}
+.white {
+    font-size: 14px;
+}
+.search_box {
+    margin: 10px auto 0;
+    width: 95%;
+}
+.non_serch_mobile{
+	display:none;
+}
+.searchicon{
+	display:block;
+}
+.navbar-header img{
+	width:100%;
+}
+.navbar-header{
+	width:63%;
+	padding:8px 0;
+}
+.mobsearch{
+	width:100%;
+	padding:0 0px;
+}
+.mobaccount{
+	width:100%;
+	padding:0 0px;
+}
+.footer_links li {
+    float: none;
+    margin: 10px 10px;
+    text-align: center;
+}
+.footer_links ul {
+    margin: auto;
+    padding-left: 0;
+}
+.copyright p{
+	width:100%;
+	padding: 0 15px;
+}
+}

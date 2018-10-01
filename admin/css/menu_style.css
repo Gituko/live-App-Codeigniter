@@ -1,0 +1,122 @@
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+a {text-decoration: none;}
+.main_menu_area{
+	background:#000;
+	width:100%;
+	border-bottom:3px solid #e60101;
+	/*padding-top: 14px;
+    padding-bottom: 14px;*/
+}
+.containerr {
+    width:100%;
+    max-width: 1170px;
+    margin: 0px auto;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.toggleMenu {
+    display:  none;
+    background:#FFF;
+    padding: 10px 15px;
+    color: #000;
+}
+.nav {
+    list-style: none;
+    zoom: 1;
+     background:#000000;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+    color:#fff;
+	text-transform:uppercase;
+}
+.nav a:hover {
+    /*padding: 10px 15px;*/
+    color:#fff;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+    /*border-top: 1px solid #104336;*/
+}
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+	padding: 23px 21px;
+	font-size: 16px;
+	font-weight:600;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+	top: 68px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background:#c60003;
+    position: relative;
+    z-index:100;
+}
+.nav li li li a {
+    background:#666;
+    z-index:200;
+}
+.nav li a:hover:not(.active) {
+    background-color:#333;
+}
+.active {
+    background-color: #d70003;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}

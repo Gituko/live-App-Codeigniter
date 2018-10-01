@@ -1,0 +1,65 @@
+.vscroller {
+   /* border: 1px solid gray;
+    border-radius: 4px;*/
+    position: relative;
+    overflow: hidden;
+    height: 477px;
+}
+.vscroller2{
+	position: relative;
+    overflow: hidden;
+    height: 730px;
+}
+.vscroller6{
+	position: relative;
+    overflow: hidden;
+    height: 185px;
+}
+.vscroller7{
+	position: relative;
+    overflow: hidden;
+    height: 667px;
+}
+.vscroller-content {
+    position: relative;
+    padding:0 0px 0 0;
+    margin-right: 5px;
+}
+
+.vscroller-scroll-body {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: #666;
+    width: 4px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.vscroller:hover > .vscroller-scroll-body{
+	opacity:0.5;
+}
+.vscroller-drag .vscroller-scroll-body,
+.vscroller-scroll-body:hover {
+    opacity: 1;
+}
+
+.vscroller-scroll {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 4px;
+    height: 45px;
+    border-radius: 8px;
+    transition: background-color 0.25s;
+    -webkit-transition: background-color 0.25s;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.vscroller-scroll:focus {
+    background: #ccc;
+}

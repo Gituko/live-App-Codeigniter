@@ -1,0 +1,199 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+/*.carousel-item {
+  height: 92vh; 
+  height: 70vh;   
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-inner .item         { background: red;      }*/
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+        .MultiCarousel .img{
+            width: 100%;
+            height: 126px;
+        }
+
+/*#videoPrincipal{
+    height: 88vh;
+    
+}*/
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+/*font-family: 'Gentium Book Basic', serif;*/
+/*font-family: 'Hind Madurai', sans-serif;*/
+
+html, body, h1, h2, h3, h4, h5, h6, a {
+    font-family: "Helvetica";
+}
+body{
+	line-height: 2;
+}
+.navbar{
+	box-shadow: 2px 4px 10px rgba(0,0,0,.2);
+}
+.form-inline {
+	    padding-top: 5px;
+}
+.dropdown-menu {
+	border-radius:0px;
+}
+.form-control {
+	border-radius:0px;
+	
+	
+}
+.f_video_bottom h5 {
+    text-align: left;
+    color: #4aa947;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.f_video_bottom p {
+    font-family: "Lato";
+    font-size: 12px;
+    text-align: left;
+    color: #666;
+    text-transform: capitalize;
+}
+.f_video_bottom p {
+    font-family: "Lato";
+    font-size: 12px;
+    text-align: left;
+    color: #666;
+    text-transform: capitalize;
+}
+.itemCategory{
+    border: solid 1px #e0dfdf;
+    padding: 0px;
+}
+.itemCategory .divImg{
+    padding: 0px;
+}
+
+#footer .container-full {
+	min-height: 50px;
+	background: #5d5d5d;
+	padding-top:20px;
+	border-top:1px solid #dedede;
+}
+.footer_links{
+	display:inline-block;
+	width:100%;
+	margin:auto;
+}
+.footer_links ul{
+	list-style:none;
+	padding-left:0;
+	margin:auto;
+	display:table;
+}
+.footer_links li{
+	float:left;
+	margin:5px 10px;
+}
+.footer_links li a{
+	color:#fff;
+	text-align:center;
+	text-transform:capitalize;
+	letter-spacing:00.05em;
+}
+.footer_links li a:hover{
+	color:#01aff7;
+}
+.footer_social{
+	display:inline-block;
+	width:100%;
+	margin:10px auto;
+}
+.footer_social ul{
+	list-style:none;
+	padding-left:0;
+	margin:auto;
+	display:table;
+}
+.footer_social li{
+	float:left;
+	margin:5px 20px;
+}
+.footer_social li a{
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+.footer_social li a:hover{
+	color:#01aff7;
+}
+.paypal{
+	margin:auto;
+        text-align: center;
+}
+.paypal img{
+	margin:auto;
+}
+.copyright p {
+	text-align: center;
+	color: #FFF;
+	line-height:60px;
+	width:40%;
+	margin-bottom:0;
+	font-size:12px;
+}
+p.foot_right{
+	float:right;
+	text-align:right;
+	display:none;
+}
+p.foot_left{
+	float:none;
+	margin:auto;
+}

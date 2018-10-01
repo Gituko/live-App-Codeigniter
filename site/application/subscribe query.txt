@@ -1,0 +1,1 @@
+ALTER TABLE `mainlink_subscriber` ADD `subscriber_date` DATE NOT NULL AFTER `subscriber_email`;
